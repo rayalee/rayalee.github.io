@@ -1,0 +1,326 @@
+.top {
+    color: white;
+    font-family: 'Abhaya Libre', serif;
+    text-align: center;
+
+}
+
+body {
+    background-color: #BAB1F0;
+    margin: 0 ;
+    padding: 0;
+
+
+}
+
+#first {
+    margin-top: 120px;
+    font-size: 40px;
+
+}
+
+#second{
+    font-size: 90px;
+    margin-top: -155px;
+    display: flex;
+    justify-content: space-evenly ;
+
+}
+
+#third{
+    font-size: 40px;
+    margin-top: -120px;
+    margin-bottom: 155px;
+
+}
+
+#break{
+    background-color: #7B75A1;
+    height: 28px;
+    margin-top: 40px;
+}
+
+.body2{
+    margin-left: 12%;
+    position: relative;
+    }
+
+
+#text1{
+    font-size: 40px;
+    margin-top : 80px;
+    margin-left: 40px;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: bolder;
+    text-align: center;
+    color: #fdf5e6;
+}
+
+#text2{
+    font-size: 22px;
+    margin-top : 30px;
+    margin-left: 40px;
+    width: 500px;
+    font-family: 'Abhaya Libre', serif;
+    color: #fdfcfa;
+}
+
+
+.portrait{
+    width: 300px;
+    top: 140px;
+    right: 300px;
+    position: absolute;
+}
+
+.description{
+    width: 500px;
+}
+
+
+
+.navbaritem:hover{
+    color:grey;;
+    transition: 0.2s;
+  }
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly ;
+    margin: auto;
+    margin-top: 35px;  
+    font-size: 25px;
+    font-family: 'Abhaya Libre', serif;
+    text-decoration: none;
+    width: 50%;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:black;
+}
+
+
+
+#home {
+    margin-left: 45px;  
+
+}
+
+#resume{
+    margin-right:45px;
+}
+
+.firsthalf{
+    height: 100vh;
+    width: 100vw;
+    background-color: #BAB1F0;
+    margin: 0;
+    padding:0;
+}
+
+
+#secondhalf{
+    height: 100vh;
+    width: 100vw;
+    background-color: #7B75A1;
+    margin: 0;
+    padding:0;
+}
+
+
+
+#pictures{
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    top: 28%;
+    left: 25%;
+    width: 50%;
+
+
+}
+
+
+#pictures2 {
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 680px;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+#pictures3 {
+    position: absolute;
+    top: 250%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 680px;
+    margin: auto;
+    text-align: center;
+}
+
+#pictures4 {
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 680px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.years{
+    display: flex;
+    justify-content: space-evenly ;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Abhaya Libre', serif;
+    text-decoration: none;
+    margin: auto;
+    margin-top: 80px;  
+    width: 800px;
+    color: #fdfcfa; 
+
+
+
+
+}
+
+
+
+#pictures1 img {
+    width: 200px;
+    margin: 0 10px;
+    transition: 0.3s;
+
+}
+#pictures1 img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#pictures2 img {
+    width: 200px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+#pictures2 img:hover {
+    cursor: pointer;
+    
+    opacity: 0.8;
+}
+
+#pictures3 img {
+    width: 200px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+#pictures3 img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+#pictures4 img {
+    width: 200px;
+    margin: 0 10px;
+    transition: 0.3s;
+
+}
+#pictures4 img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+#pictures4 img {
+    width: 200px;
+    margin: 0 10px;
+    transition: 0.3s;
+
+}
+
+
+.hidden {
+    display: none;
+}
+#lightbox-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.lightbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+}
+.lightbox img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.lightbox .caption {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    background: white;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+/**
+ * Miscellaneous things
+ */
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.question {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.12);
+    background: white;
+    padding: 18px;
+    font-size: 12px;
+    margin-bottom: 6px;
+    border-radius: 2px;
+    text-align: center;
+    font-weight: 700;
+    color: #4a4a4a;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.question:hover {
+    opacity: 0.8;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.16);
+}
+
+#index {
+    width: 240px;
+    position: absolute;
+    left: calc(50% - 120px);
+    top: calc(50% - 206px);
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+.baby{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
